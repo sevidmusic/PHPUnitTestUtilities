@@ -25,9 +25,9 @@ This trait defines the following test methods:
 
 ```
     /**
-     * Test that PHPUnit tests run.
+     * Test that phpunit tests run.
      *
-     * If this test does not run then PHPUnit is not set up
+     * If this test does not run then phpunit is not set up
      * correctly.
      *
      */

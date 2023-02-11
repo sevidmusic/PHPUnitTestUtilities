@@ -17,14 +17,14 @@ which can be used by classes that implement phpunit tests.
 Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
 ```
 
-The PHPUnitConfigurationTests trait defines tests to make sure
+The `PHPUnitConfigurationTests` trait defines tests to make sure
 phpunit is able to run.
 
 ```
 Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
 ```
 
-The PHPUnitTestMessages trait defines methods that return formatted
+The `PHPUnitTestMessages` trait defines methods that return formatted
 strings that can be used to output messages from phpunit tests,for
 example, when a test fails.
 
@@ -32,7 +32,7 @@ example, when a test fails.
 Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues
 ```
 
-The PHPUnitRandomValues trait defines methods that return random
+The `PHPUnitRandomValues` trait defines methods that return random
 values of various types that can be used by classes that implement
 phpunit tests.
 

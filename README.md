@@ -1,7 +1,7 @@
 # PHPUnitTestUtilities
 
 A collection of traits that define methods to aide in the
-implementation of phpunit tests.
+implementation of `phpunit` tests.
 
 # Installation
 
@@ -12,7 +12,7 @@ composer require darling/php-unit-test-utilities
 # Usage
 
 The `PHPUnitTestUtilities` library provides the following traits
-which can be used by classes that implement phpunit tests.
+which can be used by classes that implement `phpunit` tests.
 
 
 ### PHPUnitConfigurationTests
@@ -46,7 +46,7 @@ Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
 ```
 
 This trait defines the following methods to return formatted strings
-that can be used to output messages from phpunit tests,for example,
+that can be used to output messages from `phpunit` tests,for example,
 when a test fails.
 
 ```
@@ -112,7 +112,7 @@ Note: More detailed documentation can be found in the trait itself:
 
 The following class serves as a hypothetical example of how the
 traits provided by the PHPUnitTestUtilities library can be used
-in a class that implements phpunit tests.
+in a class that implements `phpunit` tests.
 
 ```
 <?php
@@ -156,7 +156,7 @@ class ExampleTest extends TestCase
 ```
 
 The example test above would result in the following failing test when
-phpunit is run:
+`phpunit` is run:
 
 ```
 ...

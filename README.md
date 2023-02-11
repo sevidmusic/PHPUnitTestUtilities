@@ -13,30 +13,38 @@ composer require darling/php-unit-test-utilities
 The `PHPUnitTestUtilities` library provides the following traits
 which can be used by classes that implement phpunit tests.
 
-```
-Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
-```
+
+### PHPUnitConfigurationTests
 
 The `PHPUnitConfigurationTests` trait defines tests to make sure
 phpunit is able to run.
 
 ```
-Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
+Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
 ```
+
+
+### PHPUnitTestMessages
 
 The `PHPUnitTestMessages` trait defines methods that return formatted
 strings that can be used to output messages from phpunit tests,for
 example, when a test fails.
 
 ```
-Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues
+Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
 ```
+
+### PHPUnitRandomValues
 
 The `PHPUnitRandomValues` trait defines methods that return random
 values of various types that can be used by classes that implement
 phpunit tests.
 
 ```
+Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues
+```
+
+# Example
 
 ```
 <?php

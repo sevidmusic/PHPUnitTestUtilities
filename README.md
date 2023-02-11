@@ -10,7 +10,7 @@ composer require darling/php-unit-test-utilities
 
 # Usage
 
-The PHPUnitTestUtilities library provides the following traits
+The `PHPUnitTestUtilities` library provides the following traits
 which can be used by classes that implement phpunit tests.
 
 ```

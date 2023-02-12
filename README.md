@@ -1,7 +1,7 @@
 # PHPUnitTestUtilities
 
-A collection of traits that define methods to aide in the
-implementation of `phpunit` tests.
+The PHPUnitTestUtilities library provides traits that define methods
+to aide in the implementation of `phpunit` tests.
 
 # Installation
 

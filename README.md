@@ -98,7 +98,7 @@ return random values of various types.
 
     /**
      * Return a random object instance.
-
+     *
      */
     protected function randomObjectInstance(): object
 
@@ -110,9 +110,9 @@ Note: More detailed documentation can be found in the trait itself:
 
 # Example
 
-The following class serves as a hypothetical example of how the
-traits provided by the PHPUnitTestUtilities library can be used
-in a class that implements `phpunit` tests.
+The following is a hypothetical example of how the traits provided by
+the PHPUnitTestUtilities library can be used in a class that
+implements `phpunit` tests.
 
 ```
 <?php
@@ -155,8 +155,8 @@ class ExampleTest extends TestCase
 
 ```
 
-The example test above would result in the following failing test when
-`phpunit` is run:
+The example test above would result in the following failing test
+when `phpunit` is run:
 
 ```
 ...

@@ -9,8 +9,8 @@ to aide in the implementation of `phpunit` tests.
 
 - [Traits](#traits)
 
-  - [Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages](#darlingphpunittestutilitiestraitsphpunittestmessages)
   - [Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests](#darlingphpunittestutilitiestraitsphpunitconfigurationtests)
+  - [Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages](#darlingphpunittestutilitiestraitsphpunittestmessages)
   - [Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues](#darlingphpunittestutilitiestraitsphpunitrandomvalues)
 
 # Installation

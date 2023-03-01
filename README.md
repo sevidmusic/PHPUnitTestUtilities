@@ -23,8 +23,6 @@ composer require darling/php-unit-test-utilities
 
 ### Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
 
-```
-
 This trait defines the following test methods:
 
 ```

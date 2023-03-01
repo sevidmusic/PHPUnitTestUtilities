@@ -19,7 +19,7 @@ use Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues;
  * class.
  *
  */
-class PHPUnitTestUtilitesTest extends TestCase
+class PHPUnitTestUtilitiesTest extends TestCase
 {
     use PHPUnitConfigurationTests;
     use PHPUnitTestMessages;

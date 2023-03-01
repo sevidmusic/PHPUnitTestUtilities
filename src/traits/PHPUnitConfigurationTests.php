@@ -10,6 +10,8 @@ trait PHPUnitConfigurationTests
      *
      * If this test does not run then PHPUnit is not set up correctly.
      *
+     * @covers \Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests::test_php_unit_tests_are_run
+     *
      */
     public function test_php_unit_tests_are_run(): void
     {

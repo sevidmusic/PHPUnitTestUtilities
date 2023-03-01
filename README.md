@@ -3,6 +3,16 @@
 The PHPUnitTestUtilities library provides traits that define methods
 to aide in the implementation of `phpunit` tests.
 
+# Overview
+
+- [Installation](#installation)
+
+- [Traits](#traits)
+
+  - [Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages](#darlingphpunittestutilitiestraitsphpunittestmessages)
+  - [Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests](#darlingphpunittestutilitiestraitsphpunitconfigurationtests)
+  - [Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues](#darlingphpunittestutilitiestraitsphpunitrandomvalues)
+
 # Installation
 
 ```
@@ -11,10 +21,8 @@ composer require darling/php-unit-test-utilities
 
 # Traits
 
-### PHPUnitConfigurationTests
+### Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
 
-```
-Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests
 ```
 
 This trait defines the following test methods:
@@ -35,11 +43,7 @@ Note: More detailed documentation can be found in the trait itself:
 
 [tests/PHPUnitTestUtilities/traits/PHPUnitConfigurationTests.php](https://github.com/sevidmusic/PHPUnitTestUtilities/blob/main/src/traits/PHPUnitConfigurationTests.php)
 
-### PHPUnitTestMessages
-
-```
-Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
-```
+### Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages
 
 This trait defines the following methods to return formatted strings
 that can be used to output messages from `phpunit` tests,for example,
@@ -62,11 +66,7 @@ Note: More detailed documentation can be found in the trait itself:
 
 [tests/PHPUnitTestUtilities/traits/PHPUnitTestMessages.php](https://github.com/sevidmusic/PHPUnitTestUtilities/blob/main/src/traits/PHPUnitTestMessages.php)
 
-### PHPUnitRandomValues
-
-```
-Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues
-```
+### Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues
 
 The `PHPUnitRandomValues` trait defines the following methods that
 return random values of various types.

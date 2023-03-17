@@ -1,6 +1,6 @@
 <?php
 
-namespace tests\dev\mock\classes;
+namespace Darling\PHPUnitTestUtilities\Tests\dev\mock\classes;
 
 use \Closure;
 use \stdClass;

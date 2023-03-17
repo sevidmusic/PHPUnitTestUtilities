@@ -1,8 +1,8 @@
 <?php
 
-namespace tests\dev\mock\classes;
+namespace Darling\PHPUnitTestUtilities\Tests\dev\mock\classes;
 
-use tests\dev\mock\classes\ReflectedSubParentClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedSubParentClass;
 use \Closure;
 use \stdClass;
 /**

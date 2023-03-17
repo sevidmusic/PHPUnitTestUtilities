@@ -16,7 +16,7 @@
     "autoload": {
         "psr-4": {
             "Darling\\PHPUnitTestUtilities\\": "src/",
-            "tests\\": "tests/"
+            "Darling\\PHPUnitTestUtilities\\Tests\\": "tests/"
         }
     },
     "require-dev": {

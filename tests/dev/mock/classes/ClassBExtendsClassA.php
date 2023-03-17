@@ -1,9 +1,9 @@
 <?php
 
-namespace tests\dev\mock\classes;
+namespace Darling\PHPUnitTestUtilities\Tests\dev\mock\classes;
 
 use \Closure;
-use \tests\dev\mock\classes\ClassABaseClass;
+use \Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassABaseClass;
 
 /**
  * The ClassBExtendsClassA class mocks a base class that will be

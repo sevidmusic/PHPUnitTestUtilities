@@ -1,9 +1,9 @@
 <?php
 
-namespace tests\dev\mock\classes;
+namespace Darling\PHPUnitTestUtilities\Tests\dev\mock\classes;
 
 use \Closure;
-use \tests\dev\mock\classes\ClassCExtendsClassBInheirtsFromClassA;
+use \Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassCExtendsClassBInheirtsFromClassA;
 
 # ClassCExtendsClassBInheirtsFromClassA
 /**

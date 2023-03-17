@@ -3,26 +3,26 @@
 namespace Darling\PHPUnitTestUtilities\traits;
 
 use \stdClass;
-use tests\dev\mock\classes\ClassABaseClass;
-use tests\dev\mock\classes\ClassBExtendsClassA;
-use tests\dev\mock\classes\ClassCExtendsClassBInheirtsFromClassA;
-use tests\dev\mock\classes\ClassDExtendsClassCInheirtsFromClassBAndFromClassA;
-use tests\dev\mock\classes\PrivateMethods;
-use tests\dev\mock\classes\PrivateProperties;
-use tests\dev\mock\classes\PrivateStaticMethods;
-use tests\dev\mock\classes\PrivateStaticProperties;
-use tests\dev\mock\classes\ProtectedMethods;
-use tests\dev\mock\classes\ProtectedProperties;
-use tests\dev\mock\classes\ProtectedStaticMethods;
-use tests\dev\mock\classes\ProtectedStaticProperties;
-use tests\dev\mock\classes\PublicMethods;
-use tests\dev\mock\classes\PublicProperties;
-use tests\dev\mock\classes\PublicStaticMethods;
-use tests\dev\mock\classes\PublicStaticProperties;
-use tests\dev\mock\classes\ReflectedAbstractClass;
-use tests\dev\mock\classes\ReflectedBaseClass;
-use tests\dev\mock\classes\ReflectedClass;
-use tests\dev\mock\classes\ReflectedSubParentClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassABaseClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassBExtendsClassA;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassCExtendsClassBInheirtsFromClassA;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ClassDExtendsClassCInheirtsFromClassBAndFromClassA;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PrivateMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PrivateProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PrivateStaticMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PrivateStaticProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ProtectedMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ProtectedProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ProtectedStaticMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ProtectedStaticProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PublicMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PublicProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PublicStaticMethods;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\PublicStaticProperties;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedAbstractClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedBaseClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedSubParentClass;
 
 trait PHPUnitRandomValues
 {

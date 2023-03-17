@@ -1,10 +1,10 @@
 <?php
 
-namespace tests\dev\mock\classes;
+namespace Darling\PHPUnitTestUtilities\Tests\dev\mock\classes;
 
 use \Closure;
 use \stdClass;
-use tests\dev\mock\classes\ReflectedAbstractClass;
+use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedAbstractClass;
 
 /**
  * This class is only intended to be used in tests.

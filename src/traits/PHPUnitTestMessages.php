@@ -30,7 +30,7 @@ trait PHPUnitTestMessages
      *     'run if PHPUnit is set up correctly'
      * );
      * // example output:
-     *    The tests\PHPUnitTestUtilitesTestCase implementation's
+     *    The Darling\PHPUnitTestUtilities\Tests\PHPUnitTestUtilitesTestCase implementation's
      *    test_php_unit_tests_are_run() method must
      *    run if PHPUnit is set up correctly.
      *

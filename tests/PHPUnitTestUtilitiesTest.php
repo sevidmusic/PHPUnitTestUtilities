@@ -1,6 +1,6 @@
 <?php
 
-namespace tests;
+namespace Darling\PHPUnitTestUtilities\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests;

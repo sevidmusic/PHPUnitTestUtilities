@@ -2,6 +2,9 @@
 
 namespace Darling\PHPUnitTestUtilities\traits;
 
+use \PHPUnit\Framework\Attributes\CoversNothing;
+
+#[CoversNothing]
 trait PHPUnitConfigurationTests
 {
 
@@ -9,8 +12,6 @@ trait PHPUnitConfigurationTests
      * Test that PHPUnit tests run.
      *
      * If this test does not run then PHPUnit is not set up correctly.
-     *
-     * @covers \Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests::test_php_unit_tests_are_run
      *
      */
     public function test_php_unit_tests_are_run(): void
@@ -24,5 +25,8 @@ trait PHPUnitConfigurationTests
             )
         );
     }
+
+    abstract public static function assertTrue(mixed $condition, string $message = ''): void;
+    abstract protected function testFailedMessage( object $testedInstance, string $testedMethod, string $expectation): string;
 
 }

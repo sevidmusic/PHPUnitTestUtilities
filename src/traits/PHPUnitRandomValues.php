@@ -24,6 +24,9 @@ use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedBaseClass;
 use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedClass;
 use Darling\PHPUnitTestUtilities\Tests\dev\mock\classes\ReflectedSubParentClass;
 
+use \PHPUnit\Framework\Attributes\CoversNothing;
+
+#[CoversNothing]
 trait PHPUnitRandomValues
 {
 

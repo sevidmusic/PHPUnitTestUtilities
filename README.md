@@ -15,7 +15,7 @@ to aide in the implementation of `phpunit` tests.
 
 # Installation
 
-```
+```bash
 composer require darling/php-unit-test-utilities
 ```
 
@@ -25,7 +25,7 @@ composer require darling/php-unit-test-utilities
 
 This trait defines the following test methods:
 
-```
+```php
     /**
      * Test that phpunit tests run.
      *
@@ -47,7 +47,7 @@ This trait defines the following methods to return formatted strings
 that can be used to output messages from `phpunit` tests,for example,
 when a test fails.
 
-```
+```php
     /**
      * Return a message that indicates the failure of a test.
      *
@@ -69,7 +69,7 @@ Note: More detailed documentation can be found in the trait itself:
 The `PHPUnitRandomValues` trait defines the following methods that
 return random values of various types.
 
-```
+```php
 
     /**
      * Return a string composed of a random number of randomly
@@ -108,7 +108,7 @@ The following is a hypothetical example of how the traits provided by
 the PHPUnitTestUtilities library can be used in a class that
 implements `phpunit` tests.
 
-```
+```php
 <?php
 
 namespace Darling\PHPUnitTestUtilities\Tests;
@@ -153,7 +153,7 @@ The example test above would result in the following failing test
 when `phpunit` is run:
 
 ```
-...
+...bash
 
 There was 1 failure:
 

@@ -152,8 +152,8 @@ class ExampleTest extends TestCase
 The example test above would result in the following failing test
 when `phpunit` is run:
 
-```
-...bash
+```bash
+...
 
 There was 1 failure:
 

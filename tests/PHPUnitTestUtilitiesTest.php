@@ -2,6 +2,7 @@
 
 namespace Darling\PHPUnitTestUtilities\Tests;
 
+use PHPUnit\Framework\Attributes\CoversNothing;
 use PHPUnit\Framework\TestCase;
 use Darling\PHPUnitTestUtilities\traits\PHPUnitConfigurationTests;
 use Darling\PHPUnitTestUtilities\traits\PHPUnitTestMessages;
@@ -19,6 +20,7 @@ use Darling\PHPUnitTestUtilities\traits\PHPUnitRandomValues;
  * class.
  *
  */
+#[CoversNothing]
 class PHPUnitTestUtilitiesTest extends TestCase
 {
     use PHPUnitConfigurationTests;

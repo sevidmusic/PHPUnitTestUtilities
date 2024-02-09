@@ -1,6 +1,6 @@
 {
     "name": "darling/php-unit-test-utilities",
-    "description": "A collection of traits that define methods to aide in the implementation of phpunit tests.",
+    "description": "A collection of Traits that define methods to aide in the implementation of phpunit tests.",
     "type": "library",
     "license": "MIT",
     "authors": [

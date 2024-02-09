@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Run phpstan tests
 
 on:
   push:
@@ -31,6 +31,9 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-      
+
     - name: Run phpstan analysis at level 9
       run: ./vendor/bin/phpstan analyze --level 9 ./src ./tests
+
+    # - name: Run test suite
+    #   run: composer run-script test

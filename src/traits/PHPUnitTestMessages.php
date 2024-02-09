@@ -2,6 +2,9 @@
 
 namespace Darling\PHPUnitTestUtilities\traits;
 
+use \PHPUnit\Framework\Attributes\CoversNothing;
+
+#[CoversNothing]
 trait PHPUnitTestMessages
 {
 
